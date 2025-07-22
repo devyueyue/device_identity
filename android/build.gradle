@@ -28,7 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'name.avioli.unilinks'
+        namespace 'net.niuxiaoer.device_identity'
     }
     compileSdkVersion 34
 
